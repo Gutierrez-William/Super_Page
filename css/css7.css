@@ -1,0 +1,150 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	box-sizing:border-box;
+	font-size: 1.6vw;
+
+}
+header{
+	background: #ff8804;
+	padding-bottom: 1vw;
+	
+}
+.logo1{
+	padding-top: 3vw;
+	width: 30%;	
+}
+
+nav{
+	background: #ff8804;
+	padding-left:20px;
+	border-radius: 0px 0px 50px 50px;
+	
+}
+.menu{
+	list-style: none;
+	background:#ff8804;
+	width: 90%;
+	margin: auto;
+}
+.link {
+	background:#FF9725;
+	text-decoration: none;
+	color: white;
+	padding-top:15px; 
+	padding-bottom:15px;
+	padding-left:4vw;
+	padding-right:4vw;
+	display: block;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li a:hover{
+	background-color:#F8BB06;
+}
+section{
+	padding-top: 3vw;
+	padding-left: 3vw;
+	padding-bottom: 3vw;
+	padding-right: 3vw;
+	text-align: center;
+}
+h1{
+	color:#000DBE;
+	text-transform: uppercase;
+	font-size: 5vw;
+}
+input{
+	border: 5px solid #ff8804;
+	width: 50%;
+	height: 7vw;
+	padding-left:2vw;
+	font-size: 3vw;
+}
+label{
+	font-size:4vw;
+}
+button{
+	background-color: #ff8804;
+	font-size: 3vw;
+	color: white;
+	border:none;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+footer{
+	background: #ff8804;
+	border-radius: 50px 50px 0px 0px;
+	
+}
+.pie{
+	padding-top: 30px;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	text-align: center;
+	color: white;
+	padding-bottom:30px;
+	
+}
+.app{
+	width: 20vw;
+}
+.pie p{
+	font-size: 3vw;
+	text-align: center;
+}
+
+@media screen and (max-width: 500px){
+	header{
+			padding-left:28px;
+	}
+	.logo1{
+		padding-top: 3vw;
+		width: 50%;	
+	}
+	nav{
+		background: #ff8804;
+		border-radius: 0px 0px 30px 30px;
+		padding-bottom:15px;
+		
+	}
+	.link {
+		background:#FF9725;
+		text-decoration: none;
+		color: white;
+		padding-top:15px; 
+		padding-bottom:15px;
+		padding-left:4vw;
+		padding-right:4vw;
+		display: block;
+		font-size: 5vw;
+	}
+	.menu{
+		list-style: none;
+		background:#ff8804;
+		width: 50%;
+	}
+	.menu li{
+		display: inline;
+		text-align: center;
+	}
+	input{
+		border: 5px solid #ff8804;
+		width: 60%;
+		height: 10vw;
+		padding-left:3vw;
+		font-size: 5vw;
+	}
+	
+}
+
+
+
+
